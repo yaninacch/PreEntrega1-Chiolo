@@ -1,0 +1,53 @@
+.navbar-menu {
+    background-color: #f8ceec;
+    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+    height: 50px;
+    text-align: center;
+    border-bottom: 6px solid plum;
+    
+}
+.navbar-light .navbar-nav .nav-link  {
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: larger;
+    float: left;
+   
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    opacity: 0.7;
+    color: white;
+}
+.list .navbar-nav{
+    margin: auto;
+    list-style: none;
+    margin: 25px;
+    line-height: 30px;
+    margin-inline: auto;
+}
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.a .nav-link{
+    display: flex;
+    justify-content: space-evenly;
+    --bs-navbar-nav-link-padding-x: 3rem;
+}
+.navbar .container{
+    display: flex;
+    justify-content: center;
+}
+
+.faCartShopping{
+    color: white;
+}
+
+p{
+    color: blueviolet;
+    margin-left: 2px;;
+}

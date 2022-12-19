@@ -38,7 +38,7 @@
     justify-content: space-evenly;
     --bs-navbar-nav-link-padding-x: 3rem;
 }
-.navbar .container{
+.navbar .container {
     display: flex;
     justify-content: center;
 }

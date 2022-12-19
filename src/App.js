@@ -1,21 +1,35 @@
-import './App.css';
+import React, { useEffect, useState } from 'react';
+import { Home } from './pages';
+import { NavbarMenu, Card} from './components';
+import { useFetch } from './hooks/useFetch';
+import { URL_BASE, URL_ENDPOINTS } from './constants/services';
+import Router from './router';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavbarMenu from './components/Navbar/Navbar';
-import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
+const App = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [showProducts, setShowProducts] = useState(false);
 
+  const { data: user, error, loading } = useFetch(`${URL_BASE}${URL_ENDPOINTS.USERS}`);
 
+  const onHandlerCart = () => {
+    setIsOpen(!isOpen);
+  }
 
-function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <NavbarMenu></NavbarMenu>
-      </header>
-      <ItemListContainer greeting="Item List Container working!"></ItemListContainer>
+      <div className="App">
+        <header className="App-header">
+          <NavbarMenu></NavbarMenu>
+        </header>
+         
+        <Router />
+  
+      </div>
 
-    </div>
-  );
+  )
 }
+
+
 
 export default App;

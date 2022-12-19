@@ -8,16 +8,17 @@ import {faCartShopping} from '@fortawesome/free-solid-svg-icons';
 import CartWidget from '../icon/CartWidget';
 
 
-function NavbarMenu() {
+
+const NavbarMenu = () => {
   return (
     <>
       <Navbar className='navbar-menu' bg="light" variant="light">
         <Container fluid>
         <img src={mylogo}  alt="logo" />
           <Nav className="list">
-            <Nav.Link href="#home">HOME</Nav.Link>
-            <Nav.Link href="#home">¿QUIÉNES SOMOS?</Nav.Link>
-            <Nav.Link href="#features">PRODUCTOS</Nav.Link>
+            <Nav.Link href="/">HOME</Nav.Link>
+            <Nav.Link href="/category/remeras">REMERAS</Nav.Link>
+            <Nav.Link href="/category/accesorios">ACCESORIOS</Nav.Link>
             <Nav.Link href="#features">OFERTAS</Nav.Link>
             <Nav.Link href="#pricing">CONTACTO</Nav.Link>
           </Nav>

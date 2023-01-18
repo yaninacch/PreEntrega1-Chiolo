@@ -1,4 +1,10 @@
-.cartShoppingIcon{
+.cart-shopping-icon{
     color: blueviolet;
-    
+    display: flex;
+}
+.cart-number{
+    color: blueviolet;
+    text-decoration: none;
+    margin-top: -6px;
+    margin-bottom: 1rem;
 }

@@ -5,7 +5,7 @@ import { ItemDetailContainer } from "../../components";
 
 const Detail = () => {
     const { state } = useLocation();
-    console.log(state)
+    
     return (
         <div className="container">
             <ItemDetailContainer product={state}></ItemDetailContainer>

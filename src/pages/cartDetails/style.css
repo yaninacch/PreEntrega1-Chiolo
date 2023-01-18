@@ -1,0 +1,84 @@
+.cart-tittle{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.total-cart{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    margin-left: 3rem;
+}
+.cart-item{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3rem;
+    justify-content: start;
+    flex:1;
+
+
+}
+
+.cart-item-image {
+    width: 200px;
+    height: 200px;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cart-item-details {
+    font-size: 1.2rem;
+    color: blueviolet;
+    font-weight: bold;
+}
+.button-cart{
+    background-color: #f8ceec;
+    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+    color: white;
+    border-radius: 2rem;
+    padding: 1rem;
+    border-color: white;
+    border: 1px solid ghostwhite;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    
+}
+
+.button-cart:disabled{
+    opacity: 0.5;
+    
+}
+.input-wrapper{
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    flex-basis: 50%;
+    
+}
+
+form{
+    align-items: center;
+    width: fit-content;
+    margin-left: 5rem;
+    flex: 1;
+}
+
+.cart-details{
+    display: flex;
+    margin-left: 15rem;
+    
+}
+.cart-items{
+    display: flex;
+    flex-direction: column;
+}

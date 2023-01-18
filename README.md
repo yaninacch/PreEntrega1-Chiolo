@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+## CH Indumentaria
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CH Indumentaria es un sitio web de tipo e-commerce donde el usuario podrá comprar distintos tipos de ropa y accesorios de manera virtual.
+Utilicé la librería de Bootstrap para la presentación de cada producto.También Fontawesome, del cual utilicé el ícono del carrito.
+
+
 
 ## Available Scripts
 

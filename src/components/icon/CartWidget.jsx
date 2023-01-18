@@ -4,12 +4,14 @@ import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import './style.css';
 
 
-function CartWidget(props) {
+const CartWidget = ({ cartNumber }) => {
     return (
-        <>
-            <FontAwesomeIcon className='cartShoppingIcon' icon={faCartShopping} />
-            <p>{props.cartNumber}</p>
-        </>
+
+        <div className='cart-shopping-icon'>
+            <FontAwesomeIcon icon={faCartShopping} />
+            <p className='cart-number'>{cartNumber}</p>
+        </div>
+
     )
 }
 

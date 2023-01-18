@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import { Home, Detail, Category} from "../pages";
+import { Home, Detail, Category, CartDetails } from "../pages";
 
 const Router = () => {
     return (
@@ -7,6 +7,7 @@ const Router = () => {
             <Route exact path='/' element={<Home />} />
             <Route exact path="/product/:id" element={<Detail />}/>
             <Route exact path="/category/:id" element={<Category />}/>
+            <Route exact path="/cart-details"  element={<CartDetails/>}/>
         </Routes>
     )
 }

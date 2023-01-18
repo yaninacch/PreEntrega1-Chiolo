@@ -6,6 +6,15 @@ import remeraLoveImg from '../../assets/remera-love.png';
 import diademaImg from '../../assets/diademaok.png';
 import pañueloImg from '../../assets/pañuelook.png';
 import scrunchiesImg from '../../assets/scrunchiesok.png';
+import shortBlancoImg from '../../assets/shortblanco.png';
+import shortDeminImg from '../../assets/shortdemin.png';
+import shortsLilaImg from '../../assets/shortslila.png';
+import topNegroImg from '../../assets/topnegro.png';
+import topRojoImg from '../../assets/toprojo.png';
+import corsetImg from '../../assets/corsettop.png';
+
+
+
 
 export const PRODUCTS = [
     {
@@ -72,5 +81,52 @@ export const PRODUCTS = [
         stock: 10,
         category: 'accesorios'
     },
-
+    {
+        id: 9,
+        image: shortBlancoImg,
+        name: "Short Blanco",
+        price: 4000,
+        stock: 10,
+        category: 'shorts'
+    },
+    {
+        id: 10,
+        image: shortDeminImg,
+        name: "Short Demin",
+        price: 5000,
+        stock: 10,
+        category: 'shorts'
+    },
+    {
+        id: 11,
+        image: shortsLilaImg,
+        name: "Short Lila",
+        price: 3500,
+        stock: 10,
+        category: 'shorts'
+    },
+    {
+        id: 12,
+        image: topNegroImg,
+        name: "Top Negro",
+        price: 3000,
+        stock: 10,
+        category: 'tops'
+    },
+    {
+        id: 13,
+        image: topRojoImg,
+        name: "Top Rojo",
+        price: 3500,
+        stock: 10,
+        category: 'tops'
+    },
+    {
+        id: 14,
+        image: corsetImg,
+        name: "Top Corset",
+        price: 4000,
+        stock: 10,
+        category: 'tops'
+    },
 ]

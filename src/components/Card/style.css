@@ -1,19 +1,19 @@
 .products-container{
     display: flex;
     flex-direction: row;
-    margin-left: 10%;
-    margin-right: 15%;
+    margin: auto;
 }
 
 .card {
-    background-color: #fff;
+    background-color: white;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0.5rem;
     max-width: 500px;
-    min-height: 400px;
+    min-height: 300px;
+    margin: auto;
 }
 .card-image {
     width: 200px;
@@ -78,4 +78,24 @@ input {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+
+@media  screen and (max-width:990px) {
+    .card{
+        max-width: 100%;
+        padding: 1rem;
+        box-sizing: border-box;
+        margin-left: auto;
+    }
+    
+}
+
+@media  screen and (max-width:768px) {
+    .card{
+        max-width: 100%;
+        padding: 1rem;
+        box-sizing: border-box;
+        margin-left: auto;
+    }
+    
 }
